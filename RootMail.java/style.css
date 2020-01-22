@@ -1,0 +1,471 @@
+html
+{	zoom:75%;
+
+}
+
+body
+{	background-color: #dcdcdc;
+	margin-top: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#backcolor
+{
+	margin:auto;
+	width:1366px;
+    background-color: white;
+}
+
+#intro_img
+{
+	background-image: url("images/travel.jpg");
+	margin: auto;
+	width: 1366px;
+	height: 768px;
+	transition: 1s ease-in-out;
+}
+
+#intro_img:hover
+{
+	transform: scale(1.1);
+}
+
+
+#intro_img a
+{   font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav li:nth-child(6)
+{	margin-right: 230px;
+}
+
+#text-first
+{   text-align: center;
+	margin: auto;
+	width: 1000px;
+	color: white;
+ }
+
+#text-first h1
+{ text-shadow: 2px 2px 5px white;
+  font-size: 60px;
+}
+
+#text-first h3
+{
+  font-size: 16px;
+}
+.nav li a:hover
+{	text-decoration: underline;
+	cursor: pointer;
+}
+
+.nav{
+	padding-top: 45px;
+	margin: 0px 160px 30px;
+	width: 1000px;
+	padding-right: 0px;
+
+
+}
+
+.nav li
+{
+  display: inline;
+  	margin:15px;
+}
+
+button
+{
+  border-radius: 25px;
+  padding: 5px;
+  height: 40px;
+  width: 180px;
+  border:2px solid #29abe2;
+  background-color: #29abe2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+
+}
+
+button a
+{
+	color:white;
+	text-decoration: none;
+}
+button:hover
+{
+	background-color: black;
+	border-color: white;
+}
+
+
+hr
+{ width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#secondwel
+{
+	background-color: white;
+	margin: auto;
+	width: 1366px;
+	font-size: 20px;
+}
+
+#secondwel h1
+{
+	color:#4a4a4a;
+	font-size: 48px;
+}
+
+#welcome
+{
+	width:1000px;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+}
+
+#heading
+{
+	padding-top: 80px;
+	margin-top: 0px;
+}
+
+#info
+{	color: #797979;
+	line-height: 23px;
+}
+
+#grid
+{   width:900px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 120px;
+}
+
+#grid p
+{
+	color: #797979;
+	font-size: 20px;
+}
+
+#grid h2
+{   color:#4a4a4a;
+	font-size: 25px;
+}
+
+
+#col-1
+{	width: 30%;
+	float: left;
+	margin-right: 50px;
+}
+
+#col-2
+{	width: 30%;
+	float: left;
+}
+
+#col-3
+{	width: 30%;
+	float: right;
+}
+
+#dest
+{   width:1366px;
+	margin:auto;
+	overflow: hidden;
+	background-color: white;
+}
+
+#dest h1
+{ text-align: center;
+  font-size: 50px;
+  color:#4a4a4a;
+}
+
+
+#first
+{ background-image: url("images/thailand.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#second
+{ background-image: url("images/australia.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#third
+{ background-image: url("images/indonesia.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#fourth
+{ background-image: url("images/france.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#fifth
+{ background-image: url("images/malaysia.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#sixth
+{ background-image: url("images/uae.jpg");
+  background-repeat: no-repeat;
+  height: 310px;
+  width: 300px;
+  float:left;
+  margin:30px;
+}
+#photos a
+{
+	visibility:hidden;
+	margin:100px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+#sixth a
+{
+	visibility:hidden;
+	margin:130px;
+	font-size: 30px;
+}
+#photos
+{
+	width:1100px;
+	margin:auto;
+}
+
+#first,#second,#third,#fourth,#fifth,#sixth
+{
+	filter: grayscale(0.75);
+}
+
+#first:hover,#second:hover,#third:hover,#fourth:hover,#fifth:hover,#sixth:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+
+
+#first:hover a,#second:hover a,#third:hover a,#fourth:hover a,#fifth:hover a,#sixth:hover a
+{
+	visibility: visible;
+}
+
+
+#news h1
+{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color:#4a4a4a;
+}
+
+#news
+{
+	overflow: hidden;
+	width:1000px;
+	margin:auto;
+	background-color: white;
+}
+
+#detail
+{
+	height: 800px;
+	margin-top: 80px;
+
+}
+
+#istanbul
+{
+
+	float:left;
+	width: 60%;
+	margin: 20px;
+	overflow:hidden;
+	box-shadow: 5px 10px 10px #b2b2b2;
+	block-size:665px;
+}
+
+#istanbul img,#liberty img
+{
+	transition: 1s ease-in-out;
+}
+
+#istanbul:hover img,#liberty:hover img
+{
+	transform: scale(1.1);
+}
+
+#liberty
+{
+	margin-top: 20px;
+	width: 30%;
+	float: right;
+	box-shadow: 5px 10px 10px #b2b2b2;
+	block-size:670px;
+}
+
+#istanbul2
+{
+	width: 300px;
+	margin-top: 40px;
+}
+
+#istan
+{
+	font-size: 18px;
+	margin-top:35px;
+	float: left;
+	width: 50%;
+}
+
+#istan h2
+{
+	color:#4a4a4a;
+	text-align: center;
+	font-size: 18px;
+}
+
+#istan p
+{
+	color:#797979;
+	font-size: 17px;
+}
+
+#news button
+{
+	text-align: center;
+	margin-top: 40px;
+	width: 180px;
+	height:40px;
+}
+
+#butt
+{   float: left;
+	margin-left: 450px;
+}
+
+#liberty1
+{
+	width: 300px;
+	height: 270px;
+}
+
+#newyork
+{
+	width: 300px;
+	block-size: 230px;
+}
+
+
+#liberty p
+{
+	color: #797979;
+	font-size: 16px;
+}
+
+#liberty h2
+{
+	font-size: 24px;
+	color:#4a4a4a;
+}
+
+#review
+{
+	margin:auto;
+	width: 1000px;
+}
+
+#review img
+{
+	width: 225px;
+	height: 200px;
+	margin-top: 75px;
+	margin-left: 175px;
+	padding: 0px;
+	float: left;
+	border-radius: 15px;
+	margin-right: 30px;
+}
+
+.quote
+{
+	width: 1000px;
+	background-image: url("images/quotes.png");
+	block-size:300px;
+}
+
+.quote p
+{
+	padding-top: 100px;
+	width: 800px;
+	color: #797979;
+	line-height: 23px;
+}
+
+#name, #city
+{
+	padding-top: 0px;
+}
+
+#name{
+	margin-bottom: 0px;
+	margin-top: 20px;
+	color: orange;
+}
+
+#city{
+	margin-top: 0px;
+	color: #797979;
+}
+
+#review h1
+{
+  margin-top:120px;
+  text-align: center;
+  font-size: 50px;
+  color:#4a4a4a;
+}
+
+#review h3
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #4a4a4a;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+footer
+{
+	color:white;
+}

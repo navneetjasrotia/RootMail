@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/dell/Downloads/JTattoo-1.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/dell/Downloads/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
