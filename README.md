@@ -25,6 +25,8 @@ Run server.js file in a machine with node installed
 Now go into RootMail.java file and run viv.jar file
 <br>
 <br>
+<b>Here I have used MySQL as my DB. You can change the database and use one which is suitable to you </b>
+<br>
 <br>
 <b>Some screenshots of the app are:</b>
 
