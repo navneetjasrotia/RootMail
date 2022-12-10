@@ -13,7 +13,7 @@
     "@mysql/xdevapi": "^8.0.15",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-fileupload": "^1.1.4",
     "fs": "0.0.1-security",
     "mysql": "^2.16.0"
